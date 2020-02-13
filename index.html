@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #speler2Div {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Steen papier schaar</h1>
+    <h2 id="speler"></h2>
+    <div id="speler1Div">
+        <button id="keuze1" onclick="speler1('steen')">Steen</button>
+        <button id="keuze1" onclick="speler1('papier')">Papier</button>
+        <button id="keuze1" onclick="speler1('schaar')">Schaar</button>
+    </div>
+
+    <div id="speler2Div">
+        <button id="keuze2" onclick="speler2('steen')">Steen</button>
+        <button id="keuze2" onclick="speler2('papier')">Papier</button>
+        <button id="keuze2" onclick="speler2('schaar')">Schaar</button>
+    </div>
+    <p id="target"></p>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
